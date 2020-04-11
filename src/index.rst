@@ -7,7 +7,7 @@ Welcome to DatumChi Protocol's documentation!
 =============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    intro_usecases
@@ -15,10 +15,12 @@ Welcome to DatumChi Protocol's documentation!
    protocol/overview
 
 
+The DatumChi Protocol is a suite of rules based on cryptographic techniques common with many "Blockchain" platforms, but without the unnecessary complexity and uselessness of magical internet money, with a focus on solving real problems with data sharing between participants while maintaining privacy, coupled with an attestation-based identity model.
 
-Indices and tables
-==================
+This documentation covers the protocol, as well as a set of Reference Implementations and Protocol Tests.
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+Downloads
+==========
+
+* `v1.0.0 <https://github.com/orgs/datumchi/packages>`_
