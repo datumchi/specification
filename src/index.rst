@@ -10,9 +10,11 @@ Welcome to DatumChi Protocol's documentation!
    :maxdepth: 1
    :caption: Contents:
 
+   installation
    intro_usecases
    basic_concepts
    protocol/overview
+
 
 
 The DatumChi Protocol is a suite of rules based on cryptographic techniques common with many "Blockchain" platforms, but without the unnecessary complexity and uselessness of magical internet money, with a focus on solving real problems with data sharing between participants while maintaining privacy, coupled with an attestation-based identity model.
