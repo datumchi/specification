@@ -15,5 +15,5 @@ This section will attempt to describe in more detail the DatumChi Protocol and h
 
 * Registering a Device to a Domain Identity Service
 * Authenticate a Device to a Domain Identity Service
-* Establishing an Identity to your Domain Identity Service
-* Creating a Collaboration (Full Lifecycle)
+* Establishing an Identity to your Domain Identity Service using your Authenticated Device
+* Creating a Collaboration (Full Lifecycle) using your Authenticated Device

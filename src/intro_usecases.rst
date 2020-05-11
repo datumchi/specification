@@ -18,6 +18,30 @@ The DatumChi Protocol's "Guiding Pillars" are:
 * Encourage a democratic governance process that is transparent, allows for evolution, and allows for succession
 
 
+---------------------------------------------
+Example Use Cases
+---------------------------------------------
+
+* Financial Services Messaging and Data Exchange Use Cases
+
+  * P2P ISO-20022 messaging between participants, with a series of SWIFT protocol "bots" listening in orchestrating activities
+  * P2P real-time ACH messaging between participants, with clearing house "bots" listening to ensure compliance with regulatory concerns
+  * Any exchange between participants of a financial market to clear a transaction for later settlement
+  * Real Property Closing
+  * Invoicing and Billing with Integrations with Traditional and Crypto payments
+
+
+* A New Application Model for a Modern, Next-Generation Decentralized Internet
+
+  * Decentralized Social Networking
+  * Passwordless Login Systems
+  * Secure, P2P-style RPC between identities and devices
+
+
+* The orchestration of executable contracts between participants
+
+  * Loan and Lease Agreements requiring Multiple authenticated participants
+
 
 -------------------------------------------
 Reference Implementation & Compliance Tests
@@ -38,20 +62,12 @@ The DatumChi Protocol Reference Implementations currently consist of:
 Use of Existing Infrastructure where Possible
 ---------------------------------------------
 
-The FairX Protocol attempts to use existing robust infrastructure to accomplish its goals instead of trying to re-create the world. To that end:
+The DatumChi Protocol attempts to use existing robust infrastructure to accomplish its goals instead of trying to re-create the world. To that end:
 
-* Domain Nodes are specified in the best distributed registry on the planet: DNS
+* Domain Nodes are configured in the best distributed registry on the planet: DNS
 * Communication between nodes uses a well-known, established, and efficient data encoding package (protobufs) along with an open source TLS-enabled RPC standard for secure node-device-node communication (gRPC). This means Websockets over HTTP/2 using standard SSL/TLS certificates for secure communication.
 
 
----------------------------------------------
-Example Use Cases
----------------------------------------------
-
-* Distributed Invoicing and Billing with Integrations with Traditional and Crypto payments
-* Decentralized Social Networking
-* Passwordless Login Systems
-* The orchestration of executable contracts between participants
 
 
 ---------------------------------------------
@@ -86,4 +102,4 @@ Stellar's Federated Identity
 Stellar is a distributed ledger system which uses a unique consensus algorithm that achieves finality in 3-5 seconds (though, there are some gotchas)
 It uses a federation protocol in order to map a user string (such as "alice@alpha.com") to a Stellar ledger address (such as "GA3EIUB26VTYNMM42Z6PBPUDEI3A73UCLWXBB7B4T2EOZZUOQ65OMHZC")
 
-FairX Protocol borrows heavily against this idea, while allowing for identity-to-identity attestation of attributes, the open attribute policy with standards, and strong integration with the data collaboration system instead of just serving a mapping to an address
+DatumChi Protocol borrows heavily against this idea, while allowing for identity-to-identity attestation of attributes, the open attribute policy with standards, and strong integration with the data collaboration system instead of just serving a mapping to an address
